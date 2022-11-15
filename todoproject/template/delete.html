@@ -1,0 +1,18 @@
+{% extends 'Base.html' %}
+{% block body %}
+
+<div class="row p-5 text-center" >
+    <div   class="col-md-6 shadow p-3 text-center">
+         <form method="post">
+    {% csrf_token %}
+    <h3>Are you confirm to complete the task ?</h3>
+             <div class="text-center">
+  <button class="btn btn-success " type="submit">Done</button>
+                 </div>
+</form>
+
+    </div>
+
+</div>
+
+ {% endblock %}

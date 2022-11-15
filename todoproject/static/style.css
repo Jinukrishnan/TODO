@@ -1,0 +1,21 @@
+.banner{
+        background-color:#050a14;
+        width:100%;
+        height:100px;
+        margin-bottom:50px;
+
+}
+.banner-text{
+        color:white;
+        top:30px;
+        left:600px;
+        position:absolute;
+        transform:transform;
+}
+
+.deldiv{
+ background-color:#050a14;
+        width:50%;
+        height:500px;
+        margin-bottom:50px;
+}
